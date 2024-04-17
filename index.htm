@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minia University</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/5ba8e78fdc.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+<!-- start head -->
+      <div class="head">
+        <div class="logo">
+          <img src="Images/Minia_logo_2.png" alt="Minia_logo" width="60" />
+        </div>
+        <h1>Student Food At Minia University</h1>
+      </div>
+<!-- end head -->
+      <!-- <div class="space" style="height: 100px;"></div> -->
+<!-- start main -->
+      <div class="main clearfix">
+        <div class="book">
+          <form method="get" action="#">
+            <fieldset>
+              <legend>Select the days to be booked</legend>
+              <p id="currentWeekDates" class="date"></p>
+            <label for="sa">Saturday</label><span id="sat"></span>
+            <input type="checkbox" name="booked" id="sa" value="Saturday"><br>
+            <label for="su">Sunday</label><span id="sun"></span>
+            <input type="checkbox" name="booked" id="su" value="Sunday"><br>
+            <label for="mo">Monday</label><span id="mon"></span>
+            <input type="checkbox" name="booked" id="mo" value="Monday"><br>
+            <label for="tu">Tuesday</label><span id="tue"></span>
+            <input type="checkbox" name="booked" id="tu" value="Tuesday"><br>
+            <label for="we">Wednesday</label><span id="wed"></span>
+            <input type="checkbox" name="booked" id="we" value="Wednesday"><br>
+            <label for="th">Thursday</label><span id="thu"></span>
+            <input type="checkbox" name="booked" id="th" value="Thursday"><br>
+            <label for="fr">Friday</label><span id="fri"></span>
+            <input type="checkbox" name="booked" id="fr" value="Friday"><br>
+            <input type="submit" value="Send" class="button">
+          </fieldset>
+          </form>
+        </div>
+        <div class="profile">
+          <form action="#" method="get">
+          <fieldset>
+            <legend>profile</legend>
+            <div class="image">
+              <img src="Images/user-solid.svg" alt="user" width="30">
+            </div>
+            <label for="name">Name</label>
+            <input type="text" name="Name" id="name" value="Intial value" disabled><br>
+            <label for="ID">ID</label>
+            <input type="text" name="ID" id="ID" value="2343243134354" disabled><br>
+            <label for="build">Building</label>
+            <input type="text" name="build" id="build" value="A" disabled><br>
+            <label for="phon">Phone</label>
+            <input type="tel" name="phon" id="phon"><br>
+            <input type="submit" value="Set" class="button">
+          </fieldset>
+          </form>
+
+        </div>
+      </div>
+<!-- end main -->
+    
+
+
+
+      <script src="main.js"></script>
+    </body>
+</html>
